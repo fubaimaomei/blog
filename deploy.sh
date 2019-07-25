@@ -24,3 +24,5 @@ git commit -m 'deploy'
 git push -f git@github.com:fubaimaomei/blog.git master:gh-pages
 
 cd -
+
+rm -rf .vuepress/dist

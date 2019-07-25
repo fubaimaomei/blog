@@ -6,9 +6,9 @@ module.exports = {
     repoLabel: 'GitHub',
     themeConfig: {
         nav: [
-          { text: '导航', link: '/' },
-          { text: '指南', link: '/guide/' },
+          { text: '主页', link: '/' },
+          { text: '导读', link: '/guide/' },
         ],
-        lastUpdated: 'Last Updated', // string | boolean
+        lastUpdated: '最后修改时间', // string | boolean
     }
   }
