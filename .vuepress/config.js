@@ -22,7 +22,7 @@ module.exports = {
       lineNumbers: true
     },
     themeConfig: {
-        repo: 'fubaimaomei/blog',
+        repo: 'fubaimaomei/blog/',
         navbar: true, 
         editLinks: true,
         editLinkText: '在 GitHub 上编辑此页',
