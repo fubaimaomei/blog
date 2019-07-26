@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>为什么使用函数式编程? | 笔记</title>
+    <meta name="description" content="一个总结学习的存档文件">
+    
+    
+    <link rel="preload" href="/blog/assets/css/0.styles.f5b7da27.css" as="style"><link rel="preload" href="/blog/assets/js/app.46e0616e.js" as="script"><link rel="preload" href="/blog/assets/js/2.8dec025b.js" as="script"><link rel="preload" href="/blog/assets/js/6.83007832.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.4e993313.js"><link rel="prefetch" href="/blog/assets/js/11.f851e828.js"><link rel="prefetch" href="/blog/assets/js/3.e6d6c959.js"><link rel="prefetch" href="/blog/assets/js/4.544f1ae4.js"><link rel="prefetch" href="/blog/assets/js/5.e01f26e6.js"><link rel="prefetch" href="/blog/assets/js/7.f8e30589.js"><link rel="prefetch" href="/blog/assets/js/8.f03b4f44.js"><link rel="prefetch" href="/blog/assets/js/9.176868a3.js">
+    <link rel="stylesheet" href="/blog/assets/css/0.styles.f5b7da27.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blog/" class="home-link router-link-active"><!----> <span class="site-name">笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blog/" class="nav-link">主页</a></div><div class="nav-item"><a href="/blog/guide/" class="nav-link">导读</a></div> <a href="https://github.com/fubaimaomei/blog/" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/blog/" class="nav-link">主页</a></div><div class="nav-item"><a href="/blog/guide/" class="nav-link">导读</a></div> <a href="https://github.com/fubaimaomei/blog/" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/blog/2019-07-25-functional-programming/" class="sidebar-link">前言</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/blog/2019-07-25-Why-functional-programming/" class="active sidebar-link">为什么使用函数式编程?</a><ul class="sidebar-sub-headers"></ul></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>函数基础</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/blog/2019-07-26-Basis-function/" class="sidebar-link">函数示例</a></li><li><a href="/blog/2019-07-26-Basis-function-summary/" class="sidebar-link">总结</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="函数式编程领域更像是学者的领域"><a href="#函数式编程领域更像是学者的领域" aria-hidden="true" class="header-anchor">#</a> 函数式编程领域更像是学者的领域</h3> <p><strong>代码的编写是严谨的，那种炫技式故作聪明的做法，只会让你的同事倍感压力。</strong></p> <p>代码的主要作用是方便人与人之间交流,但根据以往的经验，很多的时候,我们花时间编程其实只是读现有的代码,而我们大部分时间都是在维护别人的代码(或自己的老代码),只有少部分时间是用来编写新代码。</p> <p>虽说编程的圣杯是英语,可那毕竟只存在于科幻电影中。但我觉得,要想写下令人一目了然的代码,非函数式编程不可。</p> <p>接收它掌握它,你将能编写出可读性最高的代码,那也是最棒的代码。</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/fubaimaomei/blog/edit/master/FP/为什么要使用函数是编程？/FP-chapter-01.md" target="_blank" rel="noopener noreferrer">在 GitHub 上编辑此页</a> <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></div> <div class="last-updated"><span class="prefix">更新于: </span> <span class="time">7/26/2019, 3:21:14 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/blog/2019-07-25-functional-programming/" class="prev">
+          前言
+        </a></span> <span class="next"><a href="/blog/2019-07-26-Basis-function/">
+          函数示例
+        </a>
+        →
+      </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/blog/assets/js/app.46e0616e.js" defer></script><script src="/blog/assets/js/2.8dec025b.js" defer></script><script src="/blog/assets/js/6.83007832.js" defer></script>
+  </body>
+</html>
