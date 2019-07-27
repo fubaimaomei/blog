@@ -18,11 +18,6 @@ sidebar: 'auto'
 | school   | [@ycu](http://www.jxycu.edu.cn/)                           |
 | location | Yichun |
 
-## 🍳 我的履历
-
-- 工作经验
-- 开源项目
-
 ## 🐶 联系方式
 
 - **微信**: fubaimaomeio

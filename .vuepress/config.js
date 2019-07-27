@@ -1,6 +1,6 @@
 const FP = [
   '',
-  '为什么要使用函数是编程？/FP-chapter-01',
+  '为什么要使用函数式编程/FP-chapter-01',
   {
     title: '函数基础',
     collapsable:false,

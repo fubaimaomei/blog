@@ -9,6 +9,6 @@ sidebar: 'auto'
  
 ## 📝 函数式编程
 
-### [《Functional-Light-JS》](/2019-07-25-functional-programming/)
+1. [为什么要使用函数式编程?](/2019-07-25-Why-functional-programming)
+2. [函数基础](/2019-07-26-Basis-function)
 
-![](https://raw.githubusercontent.com/fubaimaomei/Functional-Light-JS/zh-cn/fig17.png)
