@@ -14,7 +14,6 @@ const FP = [
 module.exports = {
     title: '笔记',
     description: '一个总结学习的存档文件',
-    base: '/blog/',
     markdown: {
       toc: { 
         includeLevel: [1,2,3,4,5,6]
