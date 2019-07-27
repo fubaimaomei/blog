@@ -35,5 +35,21 @@ module.exports = {
         sidebar: {
           '/FP/': FP
         }
-    }
+    },
+    plugins: [
+      [
+        'vuepress-plugin-comment',
+        {
+          choosen: 'gitalk', 
+          options: {
+            clientID: 'b586fff99ca93144883f',
+            clientSecret: '54ce8f0616c663d8055606e52ccfdbc65a4e43b0',
+            repo: 'blog',
+            owner: '54ce8f0616c663d8055606e52ccfdbc65a4e43b0',
+            admin: ['fubaimaomei'],
+            distractionFreeMode: false 
+          }
+        }
+      ]
+    ]
   }
