@@ -36,18 +36,37 @@ module.exports = {
           '/FP/': FP
         }
     },
+    // plugins: [
+    //   [
+    //     'vuepress-plugin-comment',
+    //     {
+    //       choosen: 'gitalk', 
+    //       options: {
+    //         clientID: 'b586fff99ca93144883f',
+    //         clientSecret: '54ce8f0616c663d8055606e52ccfdbc65a4e43b0',
+    //         repo: 'blog',
+    //         owner: 'fubaimaomei',
+    //         admin: ['fubaimaomei'],
+    //         distractionFreeMode: false 
+    //       }
+    //     }
+    //   ]
+    // ]
     plugins: [
       [
         'vuepress-plugin-comment',
         {
           choosen: 'gitalk', 
           options: {
+            id: '<%- frontmatter.commentid || frontmatter.permalink %>',
+            title: '「Comment」<%- frontmatter.title %>',
+            body: '<%- frontmatter.title %>：<%-window.location.origin %><%- frontmatter.to.path || window.location.pathname %>',
             clientID: 'b586fff99ca93144883f',
             clientSecret: '54ce8f0616c663d8055606e52ccfdbc65a4e43b0',
             repo: 'blog',
             owner: 'fubaimaomei',
             admin: ['fubaimaomei'],
-            distractionFreeMode: false 
+            distractionFreeMode: false,
           }
         }
       ]
