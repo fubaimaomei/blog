@@ -45,7 +45,7 @@ module.exports = {
             clientID: 'b586fff99ca93144883f',
             clientSecret: '54ce8f0616c663d8055606e52ccfdbc65a4e43b0',
             repo: 'blog',
-            owner: '54ce8f0616c663d8055606e52ccfdbc65a4e43b0',
+            owner: 'fubaimaomei',
             admin: ['fubaimaomei'],
             distractionFreeMode: false 
           }
