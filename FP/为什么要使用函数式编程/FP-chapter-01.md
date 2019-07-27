@@ -2,7 +2,6 @@
 title: "为什么使用函数式编程?"
 date: "2019-07-25"
 permalink: "2019-07-25-Why-functional-programming"
-single: ture
 ---
 
 ### 函数式编程领域更像是学者的领域
