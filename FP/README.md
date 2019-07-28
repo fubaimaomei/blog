@@ -6,7 +6,7 @@ permalink: "2019-07-25-functional-programming"
 
 ### 介绍
 
-在学习 react 的过程中,当我阅读其文档时,其中的内容中有提及到**声明式**,以及**值的不可变性**。本想借此探个一二，可发现文档中并未做过多的讲解，于是对此产生了困惑。
+在学习 react 的过程中,当我阅读其文档,其中的内容中有提及到**声明式**,以及**值的不可变性**。本想借此探个一二，可发现文档中并未做过多的讲解，于是对此产生了困惑。
 在网上搜罗相关资料后，便有了以下学习过程，特此记录下来，方便日后的**review**。
 
 ![](https://raw.githubusercontent.com/fubaimaomei/Functional-Light-JS/zh-cn/fig17.png)
