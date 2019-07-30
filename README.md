@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: "/me.png"
-tagline: "倾听 | 思考 | 感受"
+tagline: "普通普通更普通"
 actionText: "进入笔记 →"
 actionLink: "/guide/"
 footer: "MIT Licensed | Copyright © 2019-present 凢凢"

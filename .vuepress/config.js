@@ -9,7 +9,8 @@ const FP = [
       '函数基础/总结.md'
     ]
   },
-  'Inputs/FP-chapter-03'
+  'Inputs/FP-chapter-03',
+  '组合函数/FP-chapter-04.md'
 ]
 
 module.exports = {
