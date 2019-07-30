@@ -13,3 +13,4 @@ single: true
 2. [函数基础](/thumbnail/2019-07-26-Basis-function)
 3. [Inputs](/thumbnail/2019-07-28-Inputs)
 4. [组合函数](/thumbnail/2019-07-29-composite-function)
+4. [副作用](/thumbnail/2019-07-30-effect)

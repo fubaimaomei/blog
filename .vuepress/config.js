@@ -10,7 +10,8 @@ const FP = [
     ]
   },
   'Inputs/FP-chapter-03',
-  '组合函数/FP-chapter-04.md'
+  '组合函数/FP-chapter-04',
+  '副作用/FP-chapter-05'
 ]
 
 module.exports = {
