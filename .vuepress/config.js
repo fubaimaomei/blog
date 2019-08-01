@@ -11,7 +11,8 @@ const FP = [
   },
   'Inputs/FP-chapter-03',
   '组合函数/FP-chapter-04',
-  '副作用/FP-chapter-05'
+  '副作用/FP-chapter-05',
+  '值得不可变性/FP-chapter-06'
 ]
 
 module.exports = {
