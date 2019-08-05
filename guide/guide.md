@@ -15,3 +15,4 @@ single: true
 4. [组合函数](/thumbnail/2019-07-29-composite-function)
 5. [副作用](/thumbnail/2019-07-30-effect)
 6. [值得不可变性](/thumbnail/2019-07-30-immutable)
+7. [对象 VS 闭包](/thumbnail/2019-08-04-isomorphism)

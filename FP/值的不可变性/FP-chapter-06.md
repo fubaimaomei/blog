@@ -1,5 +1,5 @@
 ---
-title: "值得不可变性"
+title: "值的不可变性"
 date: "2019-08-01"
 permalink: "2019-07-30-immutable"
 ---
