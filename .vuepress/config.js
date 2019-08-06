@@ -13,7 +13,8 @@ const FP = [
   '组合函数/FP-chapter-04',
   '副作用/FP-chapter-05',
   '值的不可变性/FP-chapter-06',
-  '对象VS闭包/FP-chapter-07'
+  '对象VS闭包/FP-chapter-07',
+  '列表操作/FP-chapter-08'
 ]
 
 module.exports = {

@@ -16,3 +16,4 @@ single: true
 5. [副作用](/thumbnail/2019-07-30-effect)
 6. [值得不可变性](/thumbnail/2019-07-30-immutable)
 7. [对象 VS 闭包](/thumbnail/2019-08-04-isomorphism)
+8. [列表操作](/thumbnail/2019-08-06-list-operation)
