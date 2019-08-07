@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: "/me.png"
-tagline: "普通普通更普通"
+tagline: "Grandpa I miss you."
 actionText: "进入笔记 →"
 actionLink: "/guide/"
 footer: "MIT Licensed | Copyright © 2019-present 凢凢"

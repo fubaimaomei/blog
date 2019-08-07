@@ -17,3 +17,5 @@ single: true
 6. [值得不可变性](/thumbnail/2019-07-30-immutable)
 7. [对象 VS 闭包](/thumbnail/2019-08-04-isomorphism)
 8. [列表操作](/thumbnail/2019-08-06-list-operation)
+9. [递归](/thumbnail/2019-08-07-recursion)
+10. [异步](/thumbnail/2019-08-07-async)

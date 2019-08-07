@@ -14,7 +14,9 @@ const FP = [
   '副作用/FP-chapter-05',
   '值的不可变性/FP-chapter-06',
   '对象VS闭包/FP-chapter-07',
-  '列表操作/FP-chapter-08'
+  '列表操作/FP-chapter-08',
+  '递归/FP-chapter-09',
+  '异步/FP-chapter-10',
 ]
 
 module.exports = {
