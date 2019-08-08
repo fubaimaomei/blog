@@ -17,6 +17,7 @@ const FP = [
   '列表操作/FP-chapter-08',
   '递归/FP-chapter-09',
   '异步/FP-chapter-10',
+  '实战/FP-chapter-11',
 ]
 
 module.exports = {

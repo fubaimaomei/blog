@@ -19,3 +19,4 @@ single: true
 8. [列表操作](/thumbnail/2019-08-06-list-operation)
 9. [递归](/thumbnail/2019-08-07-recursion)
 10. [异步](/thumbnail/2019-08-07-async)
+11. [实战](/thumbnail/2019-08-08-combat)
