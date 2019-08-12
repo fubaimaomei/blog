@@ -37,6 +37,12 @@ module.exports = {
     nav: [
       { text: '主页', link: '/' },
       { text: '导读', link: '/guide/' },
+      { 
+        text: '云开发',
+        items: [
+          { text: 'SQL', link:'/SQL/' }
+        ]
+      }
     ],
     lastUpdated: '更新于', // string | boolean
     displayAllHeaders: true,
