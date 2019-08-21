@@ -38,9 +38,10 @@ module.exports = {
       { text: '主页', link: '/' },
       { text: '导读', link: '/guide/' },
       { 
-        text: '云开发',
+        text: 'CRUD',
         items: [
-          { text: 'SQL', link:'/SQL/' }
+          { text: 'SQL', link:'/SQL/' },
+          { text: 'CRDU实践', link:'/CRUD/' }
         ]
       }
     ],
