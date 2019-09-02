@@ -43,6 +43,15 @@ module.exports = {
           { text: 'SQL', link:'/SQL/' },
           { text: 'CRDU实践', link:'/CRUD/' }
         ]
+      },
+      {
+        text: '大前端',
+        items: [
+          { text: '程序员的数学基础知识', link:'/math/' },
+          { text: '面试常考知识点速览', link:'/interview/' },
+          { text: '数据结构与算法', link: '/arithmetic/' },
+          { text: '前端知识框架', link: '/frame/' }
+       ]
       }
     ],
     lastUpdated: '更新于', // string | boolean
