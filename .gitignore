@@ -1,4 +1,6 @@
-    
+# vuepress 
+dist
+.vuepress/config/sidebar-auto.js
 # npm
 package-lock.json
 node_modules
