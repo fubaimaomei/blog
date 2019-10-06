@@ -1,7 +1,7 @@
 {
     "name": "blog",
     "version": "1.0.0",
-    "description": "倾听,思考,感受",
+    "description": "受尽苦难而不厌",
     "main": "index.js",
     "scripts": {
         "check": "node bin/prettier.js -t docs -c",
@@ -9,8 +9,8 @@
         "check:notes": "node bin/prettier.js -t notes -c",
         "lint:notes": "node bin/prettier.js -t notes -l",
         "start": "npm run dev",
-        "dev": "nodemon --watch docs bin/sidebar.js & ./node_modules/.bin/vuepress dev .",
-        "build": "node bin/sidebar.js && ./node_modules/.bin/vuepress build ."
+        "dev": "node bin/sidebar.js & npx vuepress dev . & nodemon --watch docs bin/sidebar.js",
+        "build": "node bin/sidebar.js && npx vuepress build ."
     },
     "author": "凢凢",
     "license": "MIT",
