@@ -1,5 +1,4 @@
 const sidebar = require("./config/sidebar-auto.js");
-
 // const FP = [
 //     '',
 //     '为什么要使用函数式编程/FP-chapter-01',
