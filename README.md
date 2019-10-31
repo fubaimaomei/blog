@@ -18,7 +18,7 @@ single: true
  <br/><br/>
 </div>
 
-> 这是一个专注于**前端方向**与**计算机图形学**的博客。点击传送[最新文章](https://fubaimaomei.com/guide/)。
+> 这是一个专注于**前端方向**与**计算机图形绘制**的博客。点击传送[最新文章](https://fubaimaomei.com/guide/)。
 
 ## 🐩 关于作者
 
@@ -28,7 +28,7 @@ single: true
 | occupation | JavaScript developer |
 | birthday | 199*.08.18                                                |
 | school   | [@ycu](http://www.jxycu.edu.cn/)                           |
-| location | Yichun |
+| location | NanChang |
 
 ## 🐶 联系方式
 

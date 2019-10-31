@@ -37,7 +37,6 @@ module.exports = {
         editLinkText: '在 GitHub 上编辑此页',
         nav: [
             { text: '主页', link: '/' },
-            { text: '导读', link: '/guide/' },
             {
                 text: 'CRUD',
                 items: [
