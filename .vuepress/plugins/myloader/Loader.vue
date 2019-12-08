@@ -1,6 +1,6 @@
 <template>
   <div class="my-loader center" v-show="show">
-    <div class="my-loader-circle"></div>
+    <div class="my-loader-heart"></div>
   </div>
 </template>
 
@@ -34,27 +34,62 @@ export default {
   justify-content: center;
 }
 .my-loader {
-  background: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 600;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    animation-name: backdiv;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-.my-loader-circle {
-  z-index: 900;
-  border: 3px solid#f6ffed;
-  border-top: 3px solid #3eaf7c;
-  border-radius: 50%;
-  transform: rotate(0deg);
-  width: 3.5em;
-  height: 3.5em;
-  animation: circle-rotate 1s linear infinite;
+.my-loader-heart {
+    position: relative;
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    transform: rotate(-45deg);
+    animation-name: beat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
-@keyframes circle-rotate {
-  to {
-    transform: rotate(360deg);
+
+.my-loader-heart:after {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0px;
+    left: 25px;
   }
-}
+  .my-loader-heart:before {
+    background-color: pink;
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: -25px;
+    left: 0px;
+  }
+
+  @keyframes backdiv {
+    50% {
+      background: #ffe6f2;
+    }
+  }
+
+  @keyframes beat {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    50% {
+      transform: scale(0.6) rotate(-45deg);
+    }
+  }
 </style>
